@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+.pnpm/
+.pnpm-store/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# dotenv environment
+.env
+.env.*.local
+
+# PM2 runtime and dumps
+~/.pm2
+.pm2
+dump.pm2
+
+# Build artifacts (ถ้ามี build step)
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.sw?
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Lockfiles (ถ้าร่วมทีมตกลงจะใช้แค่ไฟล์เดียว)
+package-lock.json
+yarn.lock
+# (ปล่อยให้ใช้ pnpm-lock.yaml ได้)
